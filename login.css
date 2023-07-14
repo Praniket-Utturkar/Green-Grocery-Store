@@ -1,0 +1,204 @@
+/* CSS Reset */
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/homebackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    overflow-x: hidden;
+
+
+
+}
+
+.left {
+    display: inline-block;
+    border: 5px solid greenyellow;
+    border-radius: 44px;
+    width: 102px;
+    height: 82px;
+    position: absolute;
+    left: 44px;
+    top: 20px;
+    position: fixed;
+
+}
+
+.left img {
+    width: 102px;
+    border-radius: 35px;
+    border: greenyellow;
+    position: fixed;
+}
+
+
+
+
+
+.mid {
+    display: block;
+    width: 94%;
+    margin: 7px;
+    padding: 11px 236px;
+    /* border: 2px solid green; */
+}
+
+
+
+.navbar {
+    display: inline-block;
+    background-color: #bccfbc;
+    border-radius: 10px;
+    position: fixed;
+    margin: 15px 95px;
+    padding: 14px 76px;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 22px 24px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(7, 142, 7);
+
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration_form {
+    background: white;
+    padding: 50px;
+    border-radius: 16px;
+    width: 402px;
+    margin: 56px;
+}
+
+.registration_form .title {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    background: rgb(13 215 99);
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: -25px;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+.form_wrap {
+    margin-top: 35px;
+}
+
+.form_wrap .input_wrap {
+    margin-bottom: 15px;
+}
+
+.form_wrap .input_wrap:last-child {
+    margin-bottom: 0;
+}
+
+.form_wrap .input_wrap label {
+    display: block;
+    margin-bottom: 3px;
+    color: #1a1a1f;
+}
+
+.form_wrap .input_grp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_wrap .input_grp input[type="text"] {
+    width: 165px;
+}
+
+.form_wrap input[type="text"] {
+    width: 100%;
+    border-radius: 3px;
+    border: 1.3px solid #9597a6;
+    padding: 10px;
+    outline: none;
+}
+
+.form_wrap input[type="text"]:focus {
+    border-color: rgb(13 215 99);
+}
+
+.form_wrap ul {
+    border: 1px solid rgb(13 215 99);
+    width: 70%;
+    background: rgb(206, 238, 242);
+    margin-left: 15%;
+    padding: 8px 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form_wrap ul li:first-child {
+    margin-right: 15px;
+}
+
+.form_wrap ul .radio_wrap {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.form_wrap ul .radio_wrap .input_radio {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.form_wrap ul .radio_wrap span {
+    display: inline-block;
+    font-size: 17px;
+    padding: 3px 15px;
+    border-radius: 15px;
+    color: #101749;
+}
+
+.form_wrap .input_radio:checked~span {
+    background: #10e217;
+    color: white;
+}
+
+.form_wrap .submit_btn {
+    width: 100%;
+    background: #0d6ad7;
+    padding: 10px;
+    border: 0;
+    color: white;
+    font-size: 17px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.form_wrap .submit_btn:hover {
+    background: #051c94;
+}

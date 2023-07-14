@@ -1,0 +1,163 @@
+/* CSS Reset */
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/homebackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    overflow-x: hidden;
+
+
+
+}
+
+.left {
+    display: inline-block;
+    border: 5px solid greenyellow;
+    border-radius: 44px;
+    width: 102px;
+    height: 82px;
+    position: absolute;
+    left: 44px;
+    top: 20px;
+    position: fixed;
+
+}
+
+.left img {
+    width: 102px;
+    border-radius: 35px;
+    border: greenyellow;
+    position: fixed;
+}
+
+
+
+
+
+.mid {
+    display: block;
+    width: 94%;
+    margin: 7px;
+    padding: 11px 236px;
+    /* border: 2px solid green; */
+}
+
+
+
+.navbar {
+    display: inline-block;
+    background-color: #bccfbc;
+    border-radius: 10px;
+    position: fixed;
+    margin: 15px 95px;
+    padding: 14px 76px;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 22px 24px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(7, 142, 7);
+
+}
+
+.heading h3 {
+    font-size: 62px;
+    text-align: center;
+    padding: 52px 0px;
+    margin: 28px 0px;
+    color: green;
+    position: relative;
+    top: 71px;
+}
+
+.container {
+    position: absolute;
+    left: 5px;
+    display: flex;
+    justify-items: center;
+    padding: 70px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.vitem {
+    text-align: center;
+    padding: 35px;
+    margin: auto;
+    transition: transform .2s;
+}
+.vitem:hover {
+    transform: scale(1.5);
+}
+
+.vitem img {
+    border-radius: 20px;
+   
+}
+
+
+.vitem div {
+    background-color: aliceblue;
+    color: black;
+    border-radius: 20px;
+    
+
+}
+
+
+.btn {
+    border-radius: 14px;
+    background-color: aqua;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border-radius: 14px;
+    background-color: greenyellow;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.container_f {
+    position: absolute;
+    top: 1094px;
+    display: flex;
+    justify-items: center;
+    padding: auto;
+    margin: 70px;
+    flex-wrap: wrap;
+}
+
+.heading_f {
+
+    font-size: 50px;
+    position: absolute;
+    top: 802px;
+    left: 190px;
+    text-align: center;
+    padding: 32px 0px;
+    margin: 143px 499px;
+    color: green;
+}

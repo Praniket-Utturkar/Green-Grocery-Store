@@ -1,0 +1,157 @@
+/* CSS Reset */
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/homebackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    overflow-x: hidden;
+
+
+
+}
+
+.left {
+    display: inline-block;
+    border: 5px solid greenyellow;
+    border-radius: 44px;
+    width: 102px;
+    height: 82px;
+    position: absolute;
+    left: 44px;
+    top: 20px;
+    position: fixed;
+
+}
+
+.left img {
+    width: 102px;
+    border-radius: 35px;
+    border: greenyellow;
+    position: fixed;
+}
+
+
+
+
+
+.mid {
+    display: block;
+    width: 94%;
+    margin: 7px;
+    padding: 11px 236px;
+    /* border: 2px solid green; */
+}
+
+
+
+.navbar {
+    display: inline-block;
+    background-color: #bccfbc;
+    border-radius: 10px;
+    position: fixed;
+    margin: 15px 95px;
+    padding: 14px 76px;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 22px 24px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(7, 142, 7);
+
+}
+
+.main {
+    text-align: center;
+    margin: 87px 36px;
+    padding: 7px 33px;
+    color: rgb(4, 70, 40);
+    font-size: 56px;
+}
+
+.main h6 {
+    color: orange;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-size: 25px;
+}
+
+.main p {
+    color: black;
+    font-size: 25px;
+}
+
+.banner img {
+    width: 723px;
+
+    border-radius: 12px;
+    padding: 7px;
+
+
+}
+
+.banner {
+    display: flex;
+    position: relative;
+    justify-items: center;
+    padding: auto;
+    margin: auto;
+    flex-wrap: wrap;
+    left: 22px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 1px;
+
+
+}
+
+.footer_class p {
+
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+
+}
+
+.fotter_logo i {
+    padding: 0px;
+}
+
+.brandlogo i {
+    padding: 0px;
+    margin: 0px 5px;
+    width: auto;
+    cursor: pointer;
+
+}
+
+#copyright {
+    font-size: 12px;
+}
+.fotter_logo i:hover{
+    color: rgb(189, 185, 185);
+}
